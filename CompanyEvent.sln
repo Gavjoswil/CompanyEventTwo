@@ -11,11 +11,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyEvent.Models", "Comp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyEvent.Data", "CompanyEvent.Data\CompanyEvent.Data.csproj", "{A0ED785B-D524-4DA3-9FDA-EB1677971692}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyEvent.Contracts", "CompanyEvent.Contracts\CompanyEvent.Contracts.csproj", "{CD3505E0-57C0-4669-BE24-503ACDB3C8AB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyEvent.ConsoleApp", "CompanyEvent.ConsoleApp\CompanyEvent.ConsoleApp.csproj", "{A2AF1FC8-660D-4C6A-B5E7-46EFB7D8427F}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyEvent.Api", "CompanyEvent.Api\CompanyEvent.Api.csproj", "{57A5B8FD-7E49-4F8E-9B58-A4DAD26915F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyEvent.Contracts", "CompanyEvent.Contracts\CompanyEvent.Contracts.csproj", "{9511956E-FB2F-42DA-ABEA-A9DABCC25B4C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompanyEvent.Sql", "CompanyEvent.Sql", "{862C49AC-C758-48D3-80C5-E6D97196AFC7}"
+	ProjectSection(SolutionItems) = preProject
+		CreateDatabase.sql = CreateDatabase.sql
+		CreateEventTable.sql = CreateEventTable.sql
+		SelectQuery.sql = SelectQuery.sql
+		SelectQuery2.sql = SelectQuery2.sql
+		SelectQuery3.sql = SelectQuery3.sql
+		SqlSeeding.sql = SqlSeeding.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,18 +47,14 @@ Global
 		{A0ED785B-D524-4DA3-9FDA-EB1677971692}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0ED785B-D524-4DA3-9FDA-EB1677971692}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0ED785B-D524-4DA3-9FDA-EB1677971692}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CD3505E0-57C0-4669-BE24-503ACDB3C8AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CD3505E0-57C0-4669-BE24-503ACDB3C8AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CD3505E0-57C0-4669-BE24-503ACDB3C8AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CD3505E0-57C0-4669-BE24-503ACDB3C8AB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A2AF1FC8-660D-4C6A-B5E7-46EFB7D8427F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A2AF1FC8-660D-4C6A-B5E7-46EFB7D8427F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A2AF1FC8-660D-4C6A-B5E7-46EFB7D8427F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A2AF1FC8-660D-4C6A-B5E7-46EFB7D8427F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{57A5B8FD-7E49-4F8E-9B58-A4DAD26915F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{57A5B8FD-7E49-4F8E-9B58-A4DAD26915F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57A5B8FD-7E49-4F8E-9B58-A4DAD26915F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57A5B8FD-7E49-4F8E-9B58-A4DAD26915F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9511956E-FB2F-42DA-ABEA-A9DABCC25B4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9511956E-FB2F-42DA-ABEA-A9DABCC25B4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9511956E-FB2F-42DA-ABEA-A9DABCC25B4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9511956E-FB2F-42DA-ABEA-A9DABCC25B4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

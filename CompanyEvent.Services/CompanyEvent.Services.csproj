@@ -61,6 +61,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CompanyEvent.Contracts\CompanyEvent.Contracts.csproj">
+      <Project>{9511956e-fb2f-42da-abea-a9dabcc25b4c}</Project>
+      <Name>CompanyEvent.Contracts</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CompanyEvent.Data\CompanyEvent.Data.csproj">
       <Project>{a0ed785b-d524-4da3-9fda-eb1677971692}</Project>
       <Name>CompanyEvent.Data</Name>

@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9511956E-FB2F-42DA-ABEA-A9DABCC25B4C}</ProjectGuid>
+    <ProjectGuid>{D28AA26B-3471-469C-AE8D-311715B3A5A0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CompanyEvent.Contracts</RootNamespace>
-    <AssemblyName>CompanyEvent.Contracts</AssemblyName>
+    <RootNamespace>CompanyEvent.SQL</RootNamespace>
+    <AssemblyName>CompanyEvent.SQL</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,14 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ICompanyEvent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\CompanyEvent.Models\CompanyEvent.Models.csproj">
-      <Project>{2FC0192A-9343-4054-9936-86EAE7FC1A89}</Project>
-      <Name>CompanyEvent.Models</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

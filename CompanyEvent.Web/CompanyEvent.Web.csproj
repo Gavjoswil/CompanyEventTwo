@@ -280,14 +280,6 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CompanyEvent.ConsoleApp\CompanyEvent.ConsoleApp.csproj">
-      <Project>{a2af1fc8-660d-4c6a-b5e7-46efb7d8427f}</Project>
-      <Name>CompanyEvent.ConsoleApp</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\CompanyEvent.Contracts\CompanyEvent.Contracts.csproj">
-      <Project>{cd3505e0-57c0-4669-be24-503acdb3c8ab}</Project>
-      <Name>CompanyEvent.Contracts</Name>
-    </ProjectReference>
     <ProjectReference Include="..\CompanyEvent.Data\CompanyEvent.Data.csproj">
       <Project>{a0ed785b-d524-4da3-9fda-eb1677971692}</Project>
       <Name>CompanyEvent.Data</Name>

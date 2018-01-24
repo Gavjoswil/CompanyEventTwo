@@ -12,6 +12,8 @@ namespace CompanyEvent.Models
         [Display(Name = "Event ID")]
         public int EventId { get; set; }
         public string Title { get; set; }
+        public string Overview { get; set; }
+        public string Location { get; set; }
 
         [Display(Name = "Date & Time")]
         public DateTime DateTime { get; set; }

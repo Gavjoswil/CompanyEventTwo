@@ -1,4 +1,5 @@
-﻿using CompanyEvent.Data;
+﻿using CompanyEvent.Contracts;
+using CompanyEvent.Data;
 using CompanyEvent.Models;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace CompanyEvent.Services
 {
-    public class EventService
+    public class EventService : ICompanyEvent
     {
         private readonly Guid _userId;
 
@@ -48,6 +49,8 @@ namespace CompanyEvent.Services
                                 {
                                     EventId = e.EventId,
                                     Title = e.Title,
+                                    Overview = e.Overview,
+                                    Location = e.Location,
                                     DateTime = e.DateTime
                                 });
 
